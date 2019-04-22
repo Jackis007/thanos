@@ -1,0 +1,20 @@
+rate_limit: 10
+credential:
+  access_key_id: LTAITn1PQ0Adunv9
+  access_key_secret: uveXyVu2PFXOqptjNXvXqghD56cQR7
+  region_id: cn-beijing
+
+metrics:
+  acs_rds_dashboard:
+  - name: CpuUsage
+    period: 300
+  - name: DiskUsage
+    period: 300
+  - name: MemoryUsage
+    period: 300
+  - name: MySQL_ActiveSessions
+    period: 300
+  - name: IOPSUsage
+    period: 300
+  - name: ConnectionUsage
+    period: 300

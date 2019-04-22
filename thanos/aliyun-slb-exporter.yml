@@ -1,0 +1,40 @@
+rate_limit: 10
+credential:
+  access_key_id: 
+  access_key_secret: 
+  region_id: cn-beijing
+
+metrics:
+  acs_slb_dashboard:
+  - name: HeathyServerCount
+    period: 180
+  - name: UnhealthyServerCount
+    period: 180
+  - name: TrafficRXNew
+    period: 180
+  - name: TrafficTXNew
+    period: 180
+  - name: IOPSUsage
+    period: 180
+  - name: ActiveConnection
+    period: 180
+  - name: InactiveConnection
+    period: 180
+  - name: NewConnection
+    period: 180
+  - name: MaxConnection
+    period: 180
+  - name: DropConnection
+    period: 180
+  - name: Qps
+    period: 180
+  - name: Rt
+    period: 180
+  - name: StatusCode2xx
+    period: 180
+  - name: StatusCode3xx
+    period: 180
+  - name: StatusCode4xx
+    period: 180
+  - name: StatusCode5xx
+    period: 180

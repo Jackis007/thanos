@@ -1,0 +1,50 @@
+rate_limit: 10
+credential:
+  access_key_id: 
+  access_key_secret: 
+  region_id: cn-beijing
+
+metrics:
+  acs_kvstore:
+  - name: StandardCpuUsage
+    period: 300
+  - name: StandardMemoryUsage
+    period: 300
+  - name: StandardConnectionUsage
+    period: 300
+  - name: StandardQPSUsage
+    period: 300
+  - name: StandardAvgRt
+    period: 300
+  - name: StandardIntranetInRatio
+    period: 300
+  - name: ShardingIntranetOutRatio
+    period: 300
+
+
+
+
+
+
+rate_limit: 10
+credential:
+  access_key_id: 
+  access_key_secret: 
+  region_id: cn-beijing
+
+metrics:
+  acs_kvstore:
+  - name: ShardingCpuUsage
+    period: 300
+  - name: ShardingMemoryUsage
+    period: 300
+  - name: ShardingConnectionUsage
+    period: 300
+  - name: ShardingQPSUsage
+    period: 300
+  - name: ShardingAvgRt
+    period: 300
+  - name: ShardingIntranetInRatio
+    period: 300
+  - name: ShardingIntranetOutRatio
+    period: 300
